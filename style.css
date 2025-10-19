@@ -325,21 +325,17 @@ header > .header-area {
   margin-left: 10px;
   transform: rotate(-90deg);
 }
+
 .faq-item input:checked + label .faq-question i {
   transform: rotate(90deg);
+  
 }
-
 .faq-answer {
   max-height: 0;
   overflow: hidden;
   padding: 0 20px;
   font-size: 16px;
   transition: all 0.3s ease;
-}
-
-.faq-item input:checked + label + .faq-answer {
-  max-height: 200px;
-  padding: 15px 20px;
 }
 /* faq section end */
 /* gallery start */
